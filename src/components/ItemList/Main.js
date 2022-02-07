@@ -9,7 +9,7 @@ const Main = () => {
 
   useEffect(() => {
     const fetchData = fetch(
-      "https://run.mocky.io/v3/a0c0f37d-0bf1-4389-8258-13aee83b2b9d"
+      "https://run.mocky.io/v3/d0257806-fea3-4da1-972c-d41324a1c597"
     );
     fetchData
       .then((getData) => {
