@@ -15,7 +15,7 @@ class App extends Component {
 		<BrowserRouter>
         <Main />
       	</BrowserRouter>
-      <div className='App'>
+      <div>
         <Header
           title='La Casa del Oso Birrero'
         />

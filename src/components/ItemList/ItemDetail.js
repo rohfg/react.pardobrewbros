@@ -24,6 +24,7 @@ const ItemDetail = ({ beer }) => {
     <>
       <h2>{beer.name}</h2>
       <p>{beer.detail}</p>
+      <p>{beer.price}</p>
       <ItemCount
         remaingStock={remaingStock}
         initial={count}
